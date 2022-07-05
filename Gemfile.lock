@@ -262,9 +262,9 @@ GEM
       actionpack (>= 3.1)
       railties (>= 3.1)
       slim (>= 3.0, < 5.0)
-    sorcery (0.14.0)
+    sorcery (0.16.2)
       bcrypt (~> 3.1)
-      oauth (~> 0.4, >= 0.4.4)
+      oauth (~> 0.5, >= 0.5.5)
       oauth2 (~> 1.0, >= 0.8.0)
     spring (4.0.0)
     sprockets (4.1.1)
@@ -330,7 +330,7 @@ DEPENDENCIES
   rubocop-rails
   sass-rails (>= 6)
   slim-rails
-  sorcery
+  sorcery (= 0.16.2)
   spring
   tzinfo-data
   web-console (>= 4.1.0)
