@@ -1,0 +1,6 @@
+header
+  nav.navbar.navbar-expand-lg.navigation.navbar-light.bg-light
+    = link_to root_path, class: 'navbar-brand' do
+      = image_tag 'logo.png', size: '80x20'
+    
+    = link_to 'ログアウト', logout_path, method: :delete
