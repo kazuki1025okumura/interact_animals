@@ -3,4 +3,4 @@ header
     = link_to root_path, class: 'navbar-brand' do
       = image_tag 'logo.png', size: '80x20'
     
-    = link_to 'ログアウト', logout_path, method: :delete
+    = link_to (t 'defaults.logout'), logout_path, method: :delete
