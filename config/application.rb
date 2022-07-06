@@ -34,6 +34,8 @@ module InteractAnimals
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.i18n.default_locale = :ja
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
 
     config.generators do |g|
       g.assets false
