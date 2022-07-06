@@ -4,6 +4,7 @@ require:
 
 AllCops:
   Exclude:
+    - 'tmp/**/*'
     - 'vendor/**/*'
     - 'db/**/*'
     - 'bin/**/*'

@@ -31,6 +31,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'pry-byebug'
+  gem 'pry-rails'
 end
 
 group :test do
@@ -49,6 +51,8 @@ group :development do
   gem 'spring'
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -57,7 +61,6 @@ gem 'net-smtp'
 gem 'net-imap'
 gem 'net-pop'
 gem 'sorcery', '0.16.2'
-gem 'pry-byebug'
 gem 'slim-rails'
 gem 'html2slim'
 gem 'rails-i18n', '~> 6.0'
