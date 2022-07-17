@@ -4,6 +4,9 @@ ja:
     register: '登録'
     logout: 'ログアウト'
     sign_up: '新規登録'
+    message:
+      not_authorized: '権限がありません'
+      require_login: 'ログインしてください'
   users:
     new:
       title: 'ユーザー登録'
@@ -13,3 +16,20 @@ ja:
       title: 'ログイン'
       to_register_page: '登録ページへ'
       password_forget: 'パスワードをお忘れの方はこちら'
+    create:
+      fail: 'ログインに失敗しました'
+      success: 'ログインしました'
+    destroy:
+      success: 'ログアウトしました'
+  admin:
+    user_sessions:
+      new:
+        title: 'ログイン'
+      create:
+        success: 'ログインしました'
+        fail: 'ログインに失敗しました'
+      destroy:
+        success: 'ログアウトしました'
+    dashboards:
+      index:
+        title: 'ダッシュボード'
