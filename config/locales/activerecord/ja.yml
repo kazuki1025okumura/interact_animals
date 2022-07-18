@@ -2,10 +2,33 @@ ja:
   activerecord:
     models:
       user: 'ユーザー'
-      facilities: '施設'
+      facility: '施設'
     attributes:
       user:
         email: 'メールアドレス'
         password: 'パスワード'
         password_confirmation: 'パスワード確認'
         name: 'ニックネーム'
+        role: '権限'
+        id: 'ID'
+        created_at: '作成日時'
+      facility:
+        id: 'ID'
+        created_at: '作成日時'
+        name: '施設名'
+        image: 'イメージ画像'
+        description: '概要'
+        close_day: '定休日'
+        opening_hours: '営業時間'
+        tel_number: '電話番号'
+        address: '住所'
+        access: 'アクセス'
+        parking: '駐車場'
+        price: '料金'
+        web_site: 'ホームページ'
+        remarks: '備考'
+  enums:
+    user:
+      role:
+        general: '一般'
+        admin: '管理者'
