@@ -2,7 +2,7 @@ ja:
   activerecord:
     models:
       user: 'ユーザー'
-      facilities: '施設'
+      facility: '施設'
     attributes:
       user:
         email: 'メールアドレス'

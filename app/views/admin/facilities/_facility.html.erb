@@ -1,0 +1,16 @@
+<tr>
+  <td>
+    <%= facility.id %>
+  </td>
+  <td>
+    <%= facility.name %>
+  </td>
+  <td>
+    <%= facility.address[0..2] %>
+  </td>
+  <td>
+    <%= link_to t('defaults.show'), admin_facility_path(facility), class: 'btn btn-info' %>
+    <%= link_to t('defaults.edit'), edit_admin_facility_path(facility), class: 'btn btn-success' %>
+    <%= link_to t('defaults.delete'), admin_facility_path(facility), method: :delete, data: { confirm: t('defaults.message.delete_confirm') }, class: 'btn btn-danger' %>
+  </td>
+</tr>
