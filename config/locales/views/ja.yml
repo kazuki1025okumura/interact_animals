@@ -4,9 +4,22 @@ ja:
     register: '登録'
     logout: 'ログアウト'
     sign_up: '新規登録'
+    search_word: '検索ワード'
+    unspecified: '指定なし'
+    index: '一覧'
+    show: '詳細'
+    new: '作成'
+    edit: '編集'
+    delete: '削除'
     message:
       not_authorized: '権限がありません'
       require_login: 'ログインしてください'
+      created: '%{item}を作成しました'
+      not_created: '%{item}を作成できませんでした'
+      updated: '%{item}を更新しました'
+      not_updated: '%{item}を更新できませんでした'
+      deleted: '%{item}を削除しました'
+      delete_confirm: '削除しますか？'
   users:
     new:
       title: 'ユーザー登録'
@@ -33,3 +46,20 @@ ja:
     dashboards:
       index:
         title: 'ダッシュボード'
+    users:
+      index:
+        title: 'ユーザー一覧'
+      show:
+        title: '施設詳細'
+      edit:
+        title: 'ユーザー編集'
+    facilities:
+      index:
+        title: '施設一覧'
+      show:
+        title: '施設詳細'
+      new:
+        title: '施設作成'
+      edit:
+        title: '施設編集'
+        

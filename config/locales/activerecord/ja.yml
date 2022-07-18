@@ -28,7 +28,7 @@ ja:
         web_site: 'ホームページ'
         remarks: '備考'
   enums:
-    users:
+    user:
       role:
         general: '一般'
         admin: '管理者'
